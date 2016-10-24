@@ -1,16 +1,20 @@
 #Setup
 
-Install node and npm from https://nodejs.org/en/download/
+Install node and npm from:
+
+    https://nodejs.org/en/download
 
 Run the following commands:
 
-  git clone git@github.com:ryan-10e/ui-exercise.git
-  cd ui-exercise
-  npm install
-  sudo npm install -g webpack
-  webpack
+    git clone git@github.com:ryan-10e/ui-exercise.git
+    cd ui-exercise
+    npm install
+    sudo npm install -g webpack
+    webpack
 
-No webserverver is required, just open the local file.  For me that just means going to file:///Users/rlissack/Dropbox/Development/10e/ui-exercise/index.html in my browser.
+No webserverver is required, just open the local file.  For me that just means going to following in my browser
+
+    file:///Users/rlissack/Dropbox/Development/10e/ui-exercise/index.html
 
 #API usage examples
 
