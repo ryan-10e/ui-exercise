@@ -9,12 +9,7 @@ Run the following commands:
     git clone git@github.com:ryan-10e/ui-exercise.git
     cd ui-exercise
     npm install
-    sudo npm install -g webpack
-    webpack
-
-No webserverver is required, just open the local file.  For me that just means going to following in my browser
-
-    file:///Users/rlissack/Dropbox/Development/10e/ui-exercise/index.html
+    npm start
 
 #API usage examples
 
@@ -35,6 +30,3 @@ Some examples for how to call the API using `curl`:
     echo '***SEARCH***'
     curl -d '{"search_term": "*", "order_by": "name", "start_pos": "0", "rows": "10"}' -H 'Content-Type: application/json' "${ENDPOINTS_HOST}/_ah/api/venue_service/${ENDPOINTS_VERSION}/venue/search?key=${ENDPOINTS_KEY}"
 
-#Reference
-
-https://edspencer.net/2016/03/20/a-new-stack-for-2016-getting-started-with-react-es6-and-webpack
